@@ -37,11 +37,20 @@ object Simple1 {
     val df4=df.orderBy(asc("First Name")).groupBy("First Name").agg(collect_set("County") as "Collection").select("Collection").show()
 
     //Maximum number of males born in particular year in particular country
-    val df5=df.where($"Sex"==="M").groupBy("Year","County","Sex").agg(max("Count") as "Count1").orderBy(asc("Year"),asc("County"))
+    val df5=df.groupBy("Year","County","Sex").agg(max("Count") as "Count1").orderBy(asc("Year"),asc("County")).show()
 
-     val df6=df.groupBy("Year","Sex","County").agg(max("Count") as "max_in_M&F").agg(max("max_in_M&F"))
+     val df6=df.groupBy("Year","Sex","County").agg(max("Count") as "max_in_M&F")
     val df7=df.join(df6,Seq("Year","Sex","County")).show()
 
+
+    def strLength( inputString: String) : String = {
+      val a = if (inputString == "ST LAWRENCE") "yes" else "No"
+      a
+    }
+
+      //spark.udf.register("Upper1",strLength(_String))
+    val upperUDF =  udf[String,String](strLength)
+    df.withColumn("is it a metro city or not?", upperUDF('County)).show
   //  val df.group
 
    /* df7.write
@@ -53,4 +62,6 @@ object Simple1 {
 
 
   }
+
+
 }
