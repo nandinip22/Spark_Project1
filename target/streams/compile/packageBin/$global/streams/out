@@ -1,4 +1,13 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging D:\Personal_stuff\New_project\target\scala-2.11\new_project_2.11-0.1.0.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[0m
-[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
+[info] Packaging D:\Personal_stuff\Spark_Project1\target\scala-2.11\new_project_2.11-0.1.0.jar ...
+[debug] Input file mappings:
+[debug] 	New_project
+[debug] 	  D:\Personal_stuff\Spark_Project1\target\scala-2.11\classes\New_project
+[debug] 	New_project\Test\Main$.class
+[debug] 	  D:\Personal_stuff\Spark_Project1\target\scala-2.11\classes\New_project\Test\Main$.class
+[debug] 	New_project\Test
+[debug] 	  D:\Personal_stuff\Spark_Project1\target\scala-2.11\classes\New_project\Test
+[debug] 	New_project\Test\Main$delayedInit$body.class
+[debug] 	  D:\Personal_stuff\Spark_Project1\target\scala-2.11\classes\New_project\Test\Main$delayedInit$body.class
+[debug] 	New_project\Test\Main.class
+[debug] 	  D:\Personal_stuff\Spark_Project1\target\scala-2.11\classes\New_project\Test\Main.class
+[info] Done packaging.

@@ -1,0 +1,8 @@
+[warn] D:\Personal_stuff\Spark_Project1\src\main\scala\New_project\Test\Main.scala:3:8: Class New_project.Test.Main$ differs only in case from New_project.test.Main$. Such classes will overwrite one another on case-insensitive filesystems.
+[warn] object Main {
+[warn]        ^
+[warn] one warning found
+[warn] D:\Personal_stuff\Spark_Project1\src\main\scala\New_project\Test\Main.scala:3:8: Class New_project.Test.Main$ differs only in case from New_project.test.Main$. Such classes will overwrite one another on case-insensitive filesystems.
+[warn] object Main {
+[warn]        ^
+[warn] one warning found
