@@ -4,10 +4,10 @@
 	<info
 		organisation="new_project"
 		module="new_project$sources"
-		revision="0.3.0"
+		revision="0.5.0"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171122173208"/>
+		date="20171122174043"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
